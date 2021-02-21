@@ -15,6 +15,7 @@ A mini sql engine which will run a subset of SQL queries using command line inte
 -....
 -<attributeN>
 -<end_table>
+  Check the file metadata.txt in files for better understanding.
 4. Column names are unique among all the tables. So column names are not preceded by table names in SQL queries.
 
 ### Queries:
@@ -39,5 +40,5 @@ Sum, average, max, min and count :
 
 ### Relevant Details:
 - Multiple error handling checks are put to deal with erroneous queries.
-- To run the engine, use : bash run.sh "Query";
+- To run the engine, use : bash 20171185.sh "Query";
 where Query can be all the permutations and combinations of SQL that MySQL permits using the built clauses.
