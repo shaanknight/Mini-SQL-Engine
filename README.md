@@ -4,16 +4,25 @@ A mini sql engine which will run a subset of SQL queries using command line inte
 
 ### Dataset:
 1. csv files for tables.
+
 a. If a file is : File1.csv , the table name would be File1
+
 b. There will be no tab separation or space separation.
+
 c. Both csv file type cases taken care of : the one where values are in double quotes and the one where values are without quotes.
 2. All the elements in files would be only INTEGERS
 3. A file named: metadata.txt (note the extension) would be available which will have the following structure for each table:
+
 <begin_table>
+
 <table_name>
+
 <attribute1>
+
 ....
+
 <attributeN>
+
 <end_table>
 4. Column names are unique among all the tables. So column names are not preceded by table names in SQL queries.
 
