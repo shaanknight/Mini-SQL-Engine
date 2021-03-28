@@ -240,11 +240,8 @@ def condition_parser(list_tables, list_conditions):
         comparator = ''
         for option in COMPARATORS:
             if option in condition:
-                # if comparator_usage_cnt == 1 :
-                #     print("Syntax Error : Only single comparator allowed in a condition")
-                #     exit(0)
-                comparator = option
                 comparator_usage_cnt = 1
+                comparator = option
                 break
 
         if comparator_usage_cnt == 0 :
