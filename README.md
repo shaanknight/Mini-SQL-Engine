@@ -40,5 +40,5 @@ Sum, average, max, min and count :
 
 ### Relevant Details:
 - Multiple error handling checks are put to deal with erroneous queries.
-- To run the engine, use : bash 20171185.sh "Query";
+- To run the engine, use : bash runSQL.sh "Query";
 where Query can be all the permutations and combinations of SQL that MySQL permits using the built clauses.
